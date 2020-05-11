@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.baka4n.icu</id>
-    <title>Gridea</title>
-    <updated>2020-05-11T15:55:07.987Z</updated>
+    <title>Baka4n 的博客</title>
+    <updated>2020-05-11T15:56:14.959Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.baka4n.icu"/>
     <link rel="self" href="https://www.baka4n.icu/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>欢迎拜访</subtitle>
     <logo>https://www.baka4n.icu/images/avatar.png</logo>
     <icon>https://www.baka4n.icu/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, Baka4n 的博客</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://www.baka4n.icu/post/hello-gridea/</id>
