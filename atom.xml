@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.baka4n.icu</id>
     <title>Baka4n 的博客</title>
-    <updated>2020-05-11T17:10:47.275Z</updated>
+    <updated>2020-05-13T12:21:56.333Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.baka4n.icu"/>
     <link rel="self" href="https://www.baka4n.icu/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://www.baka4n.icu/images/avatar.png</logo>
     <icon>https://www.baka4n.icu/favicon.ico</icon>
     <rights>All rights reserved 2020, Baka4n 的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[恭祝 Minecraft 11周年庆 ]]></title>
+        <id>https://www.baka4n.icu/post/gong-zhu-minecraft-11-zhou-nian-qing/</id>
+        <link href="https://www.baka4n.icu/post/gong-zhu-minecraft-11-zhou-nian-qing/">
+        </link>
+        <updated>2020-05-13T12:21:45.000Z</updated>
+        <content type="html"><![CDATA[<p>自我从1.2.5入坑以来，mc正在日新月异的变化着，到今天已经20w19a了，我觉得mojang今天可能会更新新的版本</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[你好 访问者]]></title>
         <id>https://www.baka4n.icu/post/www.baia4n.icu/</id>
