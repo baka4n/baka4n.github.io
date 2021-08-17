@@ -1,89 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Page Not Found</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
+<html>
+<title>全过程多元化动态评价系统</title>
+<style>
+input{width:100px;height:30px}
+td{height:30px;}
+tr{height:30px;}</style>
+
+<script>
+    window.onload = function(){
+    var inputs = document.getElementsByTagName("input");
+    for(i=0;i<inputs.length;i++){
+        inputs[i].onblur = function(){
+            var add11 = document.getElementById("add11").value;
+            var add21 = document.getElementById("add21").value;
+            var add31= document.getElementById("add31").value;
+            var add41 = document.getElementById("add41").value;
+            var add51 = document.getElementById("add51").value;
+            document.getElementById("sum1").value = add11*0.15 + add21*0.15+add31*0.2+add41*0.4+add51*0.1;
+            var add12 = document.getElementById("add12").value;
+            var add22 = document.getElementById("add22").value;
+            var add32 = document.getElementById("add33").value;
+            var add42 = document.getElementById("add42").value;
+            var add52 = document.getElementById("add52").value;
+            document.getElementById("sum2").value = add21*0.15 + add22*0.15+add32*0.2+add42*0.4+add52*0.1;
+           var add13 = document.getElementById("add13").value;
+            var add23 = document.getElementById("add23").value;
+            var add33 = document.getElementById("add33").value;
+            var add43 = document.getElementById("add43").value;
+            var add53 = document.getElementById("add53").value;
+            document.getElementById("sum3").value = add13*0.15 + add23*0.15+add33*0.2+add43*0.4+add53*0.1;
+            var add14 = document.getElementById("add14").value;
+            var add24 = document.getElementById("add24").value;
+            var add34 = document.getElementById("add34").value;
+            var add44 = document.getElementById("add44").value;
+            var add54 = document.getElementById("add54").value;
+            document.getElementById("sum4").value = add14*0.15 + add24*0.15+add34*0.2+add44*0.4+add54*0.1;
+           var add15 = document.getElementById("add15").value;
+            var add25 = document.getElementById("add25").value;
+            var add35 = document.getElementById("add35").value;
+            var add45 = document.getElementById("add45").value;
+            var add55 = document.getElementById("add55").value;
+            document.getElementById("sum5").value = add15*0.15 + add25*0.15+add35*0.2+add45*0.4+add55*0.1;
+        }
     }
-    body {
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      text-align: center;
-    }
-    .box {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-    }
-    .number {
-      font-size: 80px;
-      color: #666;
-      font-weight: bold;
-    }
-    .text {
-      font-size: 14px;
-      margin: 24px;
-      color: #333;
-    }
-    .btn-container {
-      display: flex;
-      justify-content: center;
-    }
-    .btn {
-      padding: 8px 24px;
-      display: inline-block;
-      text-decoration: none;
-      background: #fff;
-      border: 2px solid #efefef;
-      color: #333;
-      margin: 24px;
-      border-radius: 20px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-    }
-    .footer {
-      padding: 16px;
-      border-top: 1px solid #efefef;
-      color: #777;
-      font-weight: lighter;
-    }
-    .footer a {
-      text-decoration: none;
-      font-weight: bold;
-      color: #000;
-    }
-  </style>
-</head>
+}
+</script>
 <body>
-  <div class="box">
-    <div class="number">4 0 4</div>
-    <div class="text">
-      Page not found
-    </div>
-    <div class="btn-container">
-      <a class="btn" id="back">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" style="margin-right: 8px;">
-          <path fill="none" d="M0 0h24v24H0z"/>
-          <path d="M5.828 7l2.536 2.536L6.95 10.95 2 6l4.95-4.95 1.414 1.414L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 1 0 0-12H5.828z"/>
-        </svg>
-        Back
-      </a>
-    </div>
-  </div>
-  <footer class="footer">
-    Powered by <a href="https://gridea.dev" target="_blank">Gridea</a>
-  </footer>
-  <script>
-    var back = document.getElementById('back')
-    back.onclick = function() { console.log('run...'); history.back() }
-  </script>
-</body>
+<form name="form1">
+
+<table bgcolor="#87CEEB" cellspacing="1" border="1" width="200dp" align="center">
+<th colspan="6"><font size="5dp">全过程多元化动态评价系统</font></th>
+<tr align="center" ><td>&nbsp;&nbsp;</td><td>第一组</td><td>第二组</td><td>第三组</td><td>第四组</td><td>第五组</td></tr>
+<tr align="center"><td>课前导学（15%）</td><td><input id="add11" type="text"/></td><td><input id="add12" type="text"/></td><td><input id="add13" type="text"/></td><td><input id="add14" type="text"/></td><td><input id="add15" type="text"/></td></tr>
+
+<tr  align="center"><td>课堂练习（15%）</td><td><input id="add21" type="text"/></td><td><input id="add22" type="text"/></td><td><input id="add23" type="text"/></td><td><input id="add24" type="text"/></td><td><input id="add25" type="text"/></td></tr>
+
+<tr  align="center"><td>仿真操作（20%）</td><td><input id="add31" type="text"/></td><td><input id="add32" type="text"/></td><td><input id="add33" type="text"/></td><td><input id="add34" type="text"/></td><td><input id="add35" type="text"/></td></tr>
+<tr  align="center"><td>实战调试（40%）</td><td><input id="add41" type="text"/></td><td><input id="add42" type="text"/></td><td><input id="add43" type="text"/></td><td><input id="add44" type="text"/></td><td><input id="add45" type="text"/></td></tr>
+<tr  align="center"><td>课后提升（10%）</td><td><input id="add51" type="text"/></td><td><input id="add52" type="text"/></td><td><input id="add53" type="text"/></td><td><input id="add54" type="text"/></td><td><input id="add55" type="text"/></td></tr>
+<tr  align="center"><td>总成绩&nbsp;&nbsp;</td><td><input id="sum1" type="text"/></td><td><input id="sum2" type="text"/></td><td><input id="sum3" type="text"/></td><td><input id="sum4" type="text"/></td><td><input id="sum5" type="text"/></td></tr>
+</table></body>
+</form>
 </html>
